@@ -55,6 +55,18 @@ The following characteristics were analyzed:
 The simulation results demonstrate the performance of the proposed
 antenna configuration for its intended 5G NR application.
 
+## Fabricated Antenna and Measurement Setup
+
+The proposed quad-port CSRR-loaded antenna was fabricated and experimentally tested. The following photographs show the fabricated prototype and measurement arrangements.
+
+| Fabricated Antenna – Front View | Fabricated Antenna – Back View |
+|---|---|
+| ![Fabricated Antenna Front](images/fabricated-antenna-front.jpg) | ![Fabricated Antenna Back](images/fabricated-antenna-back.jpg) |
+
+| VNA Measurement Setup | Anechoic-Chamber Measurement Setup |
+|---|---|
+| ![VNA Measurement](images/vna-measurment.jpg) | ![Anechoic Chamber Setup](images/anechoic-chamber-setup.jpg) |
+
 ## 📄 IEEE Publication
 
 This research work has been published on IEEE Xplore.
