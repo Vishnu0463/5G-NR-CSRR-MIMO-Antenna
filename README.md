@@ -147,3 +147,10 @@ Electronics and Communication Engineering
 
 ⭐ This repository documents my academic research and engineering work
 in antenna design and 5G NR communication.
+---
+
+## 📘 Detailed Project Documentation
+
+For complete technical details covering the antenna configuration, design methodology, CST simulation, fabrication, VNA measurement, anechoic chamber testing, and performance analysis, see:
+
+### 👉 [View Complete Project Details](PROJECT_DETAILS.md) 
