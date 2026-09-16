@@ -55,6 +55,52 @@ The following characteristics were analyzed:
 The simulation results demonstrate the performance of the proposed
 antenna configuration for its intended 5G NR application.
 
+## 📊 Final Simulation and Measurement Results
+
+The final quad-port common patch antenna was analyzed at the target 3.5 GHz operating frequency. The following results present the reflection coefficient, antenna gain, surface current distribution, and radiation characteristics.
+
+### 📉 Reflection Coefficient (S11)
+
+The final antenna configuration resonates around 3.5 GHz with a reflection coefficient of approximately -35 dB, demonstrating good impedance matching at the target operating frequency.
+
+<p align="center">
+  <img src="images/s11-reflection-coefficient.jpeg" width="650">
+</p>
+
+<p align="center"><b>Reflection Coefficient (S11) of the Final QCPC Antenna</b></p>
+
+### 📡 Antenna Gain
+
+The simulated 3D gain pattern at 3.5 GHz shows a maximum gain of approximately 6.59 dBi.
+
+<p align="center">
+  <img src="images/gain-qcpc-3.5ghz.jpeg" width="600">
+</p>
+
+<p align="center"><b>3D Gain Pattern of the QCPC Antenna at 3.5 GHz</b></p>
+
+### ⚡ Surface Current Distribution
+
+The surface current distribution at 3.5 GHz illustrates the current concentration across the common patch, feed regions, rectangular slots, and CSRR-loaded structure. The maximum surface current is approximately 179 A/m.
+
+<p align="center">
+  <img src="images/surface-current-distribution-3.5ghz.jpeg" width="600">
+</p>
+
+<p align="center"><b>Surface Current Distribution at 3.5 GHz</b></p>
+
+### 📶 Radiation Patterns
+
+The radiation characteristics were evaluated at 3.5 GHz using co-polarization and cross-polarization patterns. The plots provide a comparison between simulated and measured radiation characteristics.
+
+<p align="center">
+  <img src="images/radiation-patterns-3.5ghz.jpeg" width="700">
+</p>
+
+<p align="center"><b>Simulated and Measured Radiation Patterns at 3.5 GHz</b></p>
+
+---
+
 ## Fabricated Antenna and Measurement Setup
 
 The proposed quad-port CSRR-loaded antenna was fabricated and experimentally tested. The following photographs show the fabricated prototype and measurement arrangements.
