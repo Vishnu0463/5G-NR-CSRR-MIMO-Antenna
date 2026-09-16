@@ -127,10 +127,13 @@ The corresponding result is available in:
 
 After completing the simulation and optimization stages, the proposed antenna was fabricated for experimental validation.
 
-Photographs of the fabricated antenna are available in the repository:
+### Fabricated Antenna – Front View
 
-- `images/fabricated-antenna-front.jpg`
-- `images/fabricated-antenna-back.jpg`
+![Fabricated Antenna Front View](images/fabricated-antenna-front.jpg)
+
+### Fabricated Antenna – Back View
+
+![Fabricated Antenna Back View](images/fabricated-antenna-back.jpg)
 
 ---
 
@@ -140,10 +143,13 @@ Experimental measurements were performed on the fabricated antenna.
 
 A Vector Network Analyzer (VNA) was used for antenna measurement, while the radiation measurement setup included an anechoic chamber.
 
-Measurement photographs are available at:
+### VNA Measurement Setup
 
-- `images/vna-measurement.jpg`
-- `images/anechoic-chamber-setup.jpg`
+![VNA Measurement Setup](images/vna-measurment.jpg)
+
+### Anechoic Chamber Measurement Setup
+
+![Anechoic Chamber Measurement Setup](images/anechoic-chamber-setup.jpg)
 
 ---
 
