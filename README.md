@@ -1,156 +1,84 @@
-# 📡 CSRR-Loaded Quad-Port Common Patch Antenna for 5G NR Applications
+# 📡 CSRR-Loaded Quad-Port Common Patch Antenna for 5G NR
 
-## 👨‍💻 Project Overview
+[![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-Published-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/11663631)
+![Frequency](https://img.shields.io/badge/Target%20Frequency-3.5%20GHz-blue)
+![Tool](https://img.shields.io/badge/Simulation-CST%20Microwave%20Studio-orange)
 
-This project focuses on the design and simulation of a CSRR-loaded
-quad-port common patch antenna configuration for 5G NR applications.
+A quad-port common-patch MIMO antenna enhanced with Complementary Split Ring Resonators (CSRRs) for 5G NR applications. This B.Tech ECE major project covers CST design and simulation, prototype fabrication, VNA measurements, and anechoic-chamber validation.
 
-The antenna was designed and analyzed using CST Microwave Studio as
-part of my B.Tech Electronics and Communication Engineering project.
+## Highlights
 
-## 🎯 Objective
+- Quad-port MIMO configuration using a shared radiating patch
+- CSRR loading for improved electromagnetic performance
+- Simulated and measured validation at the target 3.5 GHz band
+- Published on IEEE Xplore
 
-The objective of this project is to design and analyze a multi-port
-antenna configuration suitable for 5G NR wireless communication
-applications.
+## Key Results
 
-## 🛠️ Tools & Technologies
+| Parameter | Result |
+|---|---:|
+| Target frequency | 3.5 GHz |
+| Simulated reflection coefficient (S11) | Approximately -35 dB |
+| Maximum simulated gain | Approximately 6.59 dBi |
+| Maximum surface current | Approximately 179 A/m |
+
+## Tools and Technologies
 
 - CST Microwave Studio
-- Antenna Design
-- RF & Microwave Engineering
+- RF and Microwave Engineering
+- Antenna and MIMO Design
+- Vector Network Analyzer (VNA)
+- Anechoic-chamber measurement
 - 5G NR
-- MIMO Technology
-- CSRR (Complementary Split Ring Resonator)
 
-## 📊 Analysis
+## Simulation Results
 
-The proposed CSRR-loaded quad-port antenna was designed and simulated
-using CST Microwave Studio. The performance of the antenna was evaluated
-using various RF and antenna parameters.
+### Reflection Coefficient (S11)
 
-The following characteristics were analyzed:
+The antenna resonates around 3.5 GHz with a simulated reflection coefficient of approximately -35 dB.
 
-- **S-Parameters:** Used to evaluate the reflection and transmission
-  characteristics of the four-port antenna.
+<p align="center"><img src="images/s11-reflection-coefficient.jpeg" alt="Reflection coefficient S11 at 3.5 GHz" width="700"></p>
 
-- **Return Loss:** Analyzed to determine the impedance matching and
-  operating frequency regions of the antenna.
+### Antenna Gain
 
-- **Port Isolation:** Evaluated to determine the mutual coupling between
-  the antenna ports, which is important for MIMO performance.
+The simulated 3D radiation pattern shows a maximum gain of approximately 6.59 dBi at 3.5 GHz.
 
-- **VSWR:** Studied to evaluate the impedance matching between the antenna
-  and the feeding system.
+<p align="center"><img src="images/gain-qcpc-3.5ghz.jpeg" alt="3D antenna gain at 3.5 GHz" width="700"></p>
 
-- **Radiation Pattern:** Analyzed to understand the radiation behavior
-  and directional characteristics of the antenna.
+### Surface Current Distribution
 
-- **Gain:** Evaluated to determine the antenna's radiation performance
-  in the desired operating bands.
+The current distribution illustrates the concentration across the common patch, feed regions, rectangular slots, and CSRR-loaded structure.
 
-- **Efficiency:** Analyzed to determine how effectively the antenna
-  converts input power into radiated electromagnetic energy.
+<p align="center"><img src="images/surface-current-distribution-3.5ghz.jpeg" alt="Surface current distribution at 3.5 GHz" width="700"></p>
 
-The simulation results demonstrate the performance of the proposed
-antenna configuration for its intended 5G NR application.
+### Radiation Patterns
 
-## 📊 Final Simulation and Measurement Results
+The plots compare the simulated and measured co-polarization and cross-polarization radiation characteristics.
 
-The final quad-port common patch antenna was analyzed at the target 3.5 GHz operating frequency. The following results present the reflection coefficient, antenna gain, surface current distribution, and radiation characteristics.
+<p align="center"><img src="images/radiation-patterns-3.5ghz.jpeg" alt="Simulated and measured radiation patterns" width="700"></p>
 
-### 📉 Reflection Coefficient (S11)
+## Fabricated Prototype and Measurement
 
-The final antenna configuration resonates around 3.5 GHz with a reflection coefficient of approximately -35 dB, demonstrating good impedance matching at the target operating frequency.
-
-<p align="center">
-  <img src="images/s11-reflection-coefficient.jpeg" width="650">
-</p>
-
-<p align="center"><b>Reflection Coefficient (S11) of the Final QCPC Antenna</b></p>
-
-### 📡 Antenna Gain
-
-The simulated 3D gain pattern at 3.5 GHz shows a maximum gain of approximately 6.59 dBi.
-
-<p align="center">
-  <img src="images/gain-qcpc-3.5ghz.jpeg" width="600">
-</p>
-
-<p align="center"><b>3D Gain Pattern of the QCPC Antenna at 3.5 GHz</b></p>
-
-### ⚡ Surface Current Distribution
-
-The surface current distribution at 3.5 GHz illustrates the current concentration across the common patch, feed regions, rectangular slots, and CSRR-loaded structure. The maximum surface current is approximately 179 A/m.
-
-<p align="center">
-  <img src="images/surface-current-distribution-3.5ghz.jpeg" width="600">
-</p>
-
-<p align="center"><b>Surface Current Distribution at 3.5 GHz</b></p>
-
-### 📶 Radiation Patterns
-
-The radiation characteristics were evaluated at 3.5 GHz using co-polarization and cross-polarization patterns. The plots provide a comparison between simulated and measured radiation characteristics.
-
-<p align="center">
-  <img src="images/radiation-patterns-3.5ghz.jpeg" width="700">
-</p>
-
-<p align="center"><b>Simulated and Measured Radiation Patterns at 3.5 GHz</b></p>
-
----
-
-## Fabricated Antenna and Measurement Setup
-
-The proposed quad-port CSRR-loaded antenna was fabricated and experimentally tested. The following photographs show the fabricated prototype and measurement arrangements.
-
-| Fabricated Antenna – Front View | Fabricated Antenna – Back View |
+| Front view | Back view |
 |---|---|
-| ![Fabricated Antenna Front](images/fabricated-antenna-front.jpg) | ![Fabricated Antenna Back](images/fabricated-antenna-back.jpg) |
+| <img src="images/fabricated-antenna-front.jpg" alt="Fabricated antenna front view" width="400"> | <img src="images/fabricated-antenna-back.jpg" alt="Fabricated antenna back view" width="400"> |
 
-| VNA Measurement Setup | Anechoic-Chamber Measurement Setup |
+| VNA measurement | Anechoic-chamber measurement |
 |---|---|
-| ![VNA Measurement](images/vna-measurment.jpg) | ![Anechoic Chamber Setup](images/anechoic-chamber-setup.jpg) |
+| <img src="images/vna-measurement.jpg" alt="VNA measurement setup" width="400"> | <img src="images/anechoic-chamber-setup.jpg" alt="Anechoic chamber measurement setup" width="400"> |
 
-## 📄 IEEE Publication
+## IEEE Publication
 
-This research work has been published on IEEE Xplore.
+**Design of a CSRR-Loaded Quad-Port Common Patch Configuration Antenna for 5G NR Applications**
 
-**Title:** Design of a CSRR-Loaded Quad-Port Common Patch
-Configuration Antenna for 5G NR Applications
+[View the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11663631)
 
-🔗 [View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/11663631)
+## Detailed Documentation
 
-## 🎓 Academic Information
+See [PROJECT_DETAILS.md](PROJECT_DETAILS.md) for the design methodology, CST workflow, fabrication, measurement setup, and technical analysis.
 
-**Degree:** B.Tech – Electronics and Communication Engineering  
-**Institution:** Vignan's Lara Institute of Technology and Science  
-**Project Type:** Final Year Major Project
+## Author
 
-## 👤 Author
-
-**Kasukurthi Vishnu Vardhan**
-
-Electronics and Communication Engineering
-
-## 🚀 Areas of Interest
-
-- VLSI Design
-- Embedded Systems
-- RF & Microwave Engineering
-- FPGA
-- Digital Electronics
-- 5G Communication
-
----
-
-⭐ This repository documents my academic research and engineering work
-in antenna design and 5G NR communication.
----
-
-## 📘 Detailed Project Documentation
-
-For complete technical details covering the antenna configuration, design methodology, CST simulation, fabrication, VNA measurement, anechoic chamber testing, and performance analysis, see:
-
-### 👉 [View Complete Project Details](PROJECT_DETAILS.md) 
+**Kasukurthi Vishnu Vardhan**  
+B.Tech, Electronics and Communication Engineering  
+Vignan's Lara Institute of Technology and Science
